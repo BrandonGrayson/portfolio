@@ -1,0 +1,13 @@
+.jumbotron {
+    background: black;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.about {
+    color: white;
+}
+
+.aboutTxt {
+    color: white;
+}
