@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
+
+
 const styles = {
     hero: {
         background: "black",
@@ -34,7 +36,7 @@ const Hello = () => {
                 <Link style={styles.decorate} to='/contact' ><h1 className='mt-5' style={styles.link}>Brandon</h1></Link>
             </div>
 
-            <img src="./img/Brandon_cropped.jpg" class="img-thumbnail ml-5" alt="P" style={{ 'maxWidth': '250px', 'maxHeight': '300px', 'marginTop': '30vh' }} />
+            <img src="./img" className="img-thumbnail ml-5" alt="P" style={{ 'maxWidth': '250px', 'maxHeight': '300px', 'marginTop': '30vh' }} />
 
         </div>
     )
