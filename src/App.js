@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div>
 
-        <Route exact path="/">
+        <Route exact path="/portfolio">
         < Hello />
         </Route>
 
