@@ -4,8 +4,9 @@ import "../styles/about.css"
 
 const About = () => {
     return (
-        <div className='container jumbotron col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+        <div className='container jumbo col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-0'>
             <div className='container hero'>
+
             <h1 className='txt'>I design and build digital products</h1>
 
                 <div>
@@ -17,13 +18,9 @@ const About = () => {
 
                     <p className='aboutTxt'>I don't like to define myself by the work I've done. I prefer to define myself by the work I want to do. I wake up everday with the goal of being Better than I was yesterday. I'm a high-energy individual who's easily inspired. Once my mind is set on an idea or goal I fell compelled to follow it until the end.</p>
 
-                    <p className='aboutTxt'>I'm a fast learner who's used to juggling different projects and Roles with relative ease. I'm currently looking for my next position. An environment where I can continue to grow and develop. While working with a team to complete various tasks. I'd love to talk about possible opportunities! </p>
+                    <p className='aboutTxtL'>I'm a fast learner who's used to juggling different projects and Roles with relative ease. I'm currently looking for my next position. An environment where I can continue to grow and develop. While working with a team to complete various tasks. I'd love to talk about possible opportunities! </p>
                 </div>
             </div>
-            
-
-
-
         </div>
     )
 }
