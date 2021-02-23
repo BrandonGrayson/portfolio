@@ -12,6 +12,7 @@ import note from "../img/noteTaker.png"
 import fit from "../img/fitnessTracker.png"
 import vue from "../img/Vue.png"
 import burger from "../img/burger.png"
+import quiz from "../img/quiz.png"
 
 
 const Portfolio = () => {
@@ -269,6 +270,23 @@ const Portfolio = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">ReadMe Generator</h5>
                                     <p className="card-text">Short on time and but still need a quality readme? Readme Generator uses inquirer to take user input to build the perfect readme. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={quiz} alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Code Quiz</h5>
+                                    <p className="card-text">Test your javascript knowledge with CodeQuiz.</p>
                                 </div>
                             </div>
                         </div>
