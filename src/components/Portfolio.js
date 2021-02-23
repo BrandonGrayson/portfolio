@@ -224,6 +224,23 @@ const Portfolio = () => {
                     </div>
                 </div>
 
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={passowrd} alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Team Builder</h5>
+                                    <p className="card-text">Team Builder allows Users to quickly build templates for any project and assign roles to members.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
