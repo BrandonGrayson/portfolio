@@ -10,6 +10,7 @@ import passowrd from "../img/generatepassword.png"
 import budgetTracker from "../img/budgetTracker.png"
 import note from "../img/noteTaker.png"
 import fit from "../img/fitnessTracker.png"
+import vue from "../img/Vue.png"
 
 
 const Portfolio = () => {
@@ -117,6 +118,23 @@ const Portfolio = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Budget Tracker</h5>
                                     <p className="card-text">Manage your Finances with Budget Tracker. This app is equipeed to run offline with the help of service workers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={vue} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Vue</h5>
+                                    <p className="card-text">Vue is an Employee Directory. That utilizes the random users api and react.js to generate an employee directory.</p>
                                 </div>
                             </div>
                         </div>
