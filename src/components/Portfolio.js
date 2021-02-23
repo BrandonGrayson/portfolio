@@ -5,6 +5,8 @@ import dmm from "../img/dmm.png"
 import anime from "../img/animevsmma.png"
 import weather from "../img/weatherdashboard.png"
 import maze from "../img/maze.png"
+import dayplanner from "../img/dayplanner.png"
+import passowrd from "../img/generatepassword.png"
 
 
 const Portfolio = () => {
@@ -103,12 +105,12 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src="..." alt="..." />
+                                <img src={dayplanner} alt="day planner homepage" style={{"maxWidth": "200px"}} />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title">Day Planner</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"></p>
                                     <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
@@ -121,7 +123,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src="..." alt="..." />
+                                <img src={passowrd} alt="password generator homepage" style={{"maxWidth": "200px"}} />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
