@@ -7,6 +7,7 @@ import weather from "../img/weatherdashboard.png"
 import maze from "../img/maze.png"
 import dayplanner from "../img/dayplanner.png"
 import passowrd from "../img/generatepassword.png"
+import budgetTracker from "../img/budgetTracker.png"
 
 
 const Portfolio = () => {
@@ -68,6 +69,24 @@ const Portfolio = () => {
                 </div>
 
                 <h2 className='ptitle' >Individual</h2>
+
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={budgetTracker} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Budget Tracker</h5>
+                                    <p className="card-text">Manage your Finances with Budget Tracker. This app is equipeed to run offline with the help of service workers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
