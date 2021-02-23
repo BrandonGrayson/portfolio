@@ -250,6 +250,23 @@ const Portfolio = () => {
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
+                                    <h5 className="card-title">Employee Tracker</h5>
+                                    <p className="card-text">Employee-Tracker is simple and easy to use application designed to allow managers and other qualified personal view and edit employee data.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
                                     <h5 className="card-title">ReadMe Generator</h5>
                                     <p className="card-text">Short on time and but still need a quality readme? Readme Generator uses inquirer to take user input to build the perfect readme. </p>
                                 </div>
