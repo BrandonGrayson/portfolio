@@ -8,6 +8,7 @@ import maze from "../img/maze.png"
 import dayplanner from "../img/dayplanner.png"
 import passowrd from "../img/generatepassword.png"
 import budgetTracker from "../img/budgetTracker.png"
+import note from "../img/noteTaker.png"
 
 
 const Portfolio = () => {
@@ -70,6 +71,22 @@ const Portfolio = () => {
 
                 <h2 className='ptitle' >Individual</h2>
 
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={note} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Note Taker</h5>
+                                    <p className="card-text">Keep Track of Notes and Tasks using Note Taker.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
                 <div className='projects'>
