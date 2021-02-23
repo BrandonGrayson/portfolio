@@ -110,8 +110,7 @@ const Portfolio = () => {
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title">Day Planner</h5>
-                                    <p className="card-text"></p>
-                                    <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p className="card-text">Plan out your days with Day Planner. Easily keep track of important events by adding them to your planner for later.</p>
                                 </div>
                             </div>
                         </div>
@@ -128,8 +127,7 @@ const Portfolio = () => {
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title">Generate Password</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p className="card-text">Generate a random password based on the criteria you chose. Next take a screenshot to save your passowrd for prosterity.</p>
                                 </div>
                             </div>
                         </div>
