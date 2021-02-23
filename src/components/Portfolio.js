@@ -3,6 +3,7 @@ import "../styles/portfolio.css"
 import lookbook from "../img/lookbook.png"
 import dmm from "../img/dmm.png"
 import anime from "../img/animevsmma.png"
+import weather from "../img/weatherdashboard.png"
 
 
 const Portfolio = () => {
@@ -63,17 +64,18 @@ const Portfolio = () => {
                     </div>
                 </div>
 
+                <h2 className='ptitle' >Individual</h2>
+
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src="..." alt="..." />
+                                <img src={weather} alt="weather dashboard homepage" style={{"maxWidth": "200px"}} />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title">Weather Planner</h5>
-                                    <p className="card-text">Weather Planner was designed to give users access to the 5 day forecast of any city.</p>
-                                    <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 className="card-title">Weather Dashboard</h5>
+                                    <p className="card-text">Weather Dashboard uses the Yahoo weather api to allow users access to the forecast of any city up to 5 days in advance.</p>
                                 </div>
                             </div>
                         </div>
