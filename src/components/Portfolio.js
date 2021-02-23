@@ -9,6 +9,25 @@ const Portfolio = () => {
             <div className='container'>
                 <h1 className='ptitle'>Projects</h1>
 
+                <h2 className='ptitle'>Group Projects: </h2>
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src="..." alt="..." />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Look-Book</h5>
+                                    <p className="card-text">DMM is a role playing game based off Dungeons and Dragons. The DMM can easily create Characters and design storylines. While keeping track of skills and progress.</p>
+                                    <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
