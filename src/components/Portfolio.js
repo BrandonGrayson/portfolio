@@ -29,7 +29,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={lookbook} alt="lookbook homepage" style={{"maxWidth": "200px"}} />
+                                <img src={lookbook} className='card-img-top' alt="lookbook homepage" style={{"maxWidth": "300px"}} />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
