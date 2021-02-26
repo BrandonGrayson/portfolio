@@ -1,4 +1,5 @@
 import React from "react"
+import Navbar from "./Navbar"
 import "../styles/portfolio.css"
 import lookbook from "../img/lookbook.png"
 import dmm from "../img/dmm.png"
@@ -23,6 +24,9 @@ const Portfolio = () => {
                 <h1 className='ptitle'>Projects</h1>
 
                 <h2 className='ptitle'>Group Projects: </h2>
+
+
+                <Navbar />
 
 
                 <div className='projects'>

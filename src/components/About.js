@@ -1,11 +1,14 @@
 import React from "react"
 import "../styles/about.css"
+import Navbar from "./Navbar"
 
 
 const About = () => {
     return (
         <div className='container jumbo col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-0'>
             <div className='container hero'>
+
+                <Navbar />
 
             <h1 className='txt'>I design and build digital products</h1>
 
