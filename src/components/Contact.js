@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/contact.css"
 import Navbar from "./Navbar"
-import resume from "../img/resume.png"
+import resume from "../img/res.ume.png"
 import resumePDF from "../img/resumepdf.pdf"
 
 const Contact = () => {
