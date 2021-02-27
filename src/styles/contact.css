@@ -2,3 +2,11 @@
     max-width: 1200px;
     max-height: 1200px;
 }
+
+.hero {
+    background: black !important;
+}
+
+.txt {
+    color: white;
+}

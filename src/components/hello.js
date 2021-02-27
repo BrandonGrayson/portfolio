@@ -34,9 +34,9 @@ const Hello = () => {
         <div className='container hero d-flex flex-row justify-content-center col-sm-12 col-md-12 col-lg-12 col-xl-12' style={styles.hero}>
 
             <div className='flex-column' style={styles.el}>
-              <Link style={styles.decorate}   to='/about' ><h1 style={styles.font}>Hello.</h1></Link>  
-                < Link style={styles.decorate}   to='/projects' ><h1 className='mt-5' style={styles.link} >I Am</h1></Link>
-                <Link style={styles.decorate} to='/contact' ><h1 className='mt-5' style={styles.link}>Brandon</h1></Link>
+              <Link style={styles.decorate} className='hello'   to='/about' ><h1 style={styles.font}>Hello.</h1></Link>  
+                < Link style={styles.decorate} to='/projects' ><h1 className='mt-5 i-am' style={styles.link} >I Am</h1></Link>
+                <Link style={styles.decorate} to='/contact' ><h1 className='mt-5 brandon' style={styles.link}>Brandon</h1></Link>
             </div>
 
             <img src={img} className="img-thumbnail ml-5" alt="P" style={{ 'maxWidth': '250px', 'maxHeight': '300px', 'marginTop': '30vh' }} />
