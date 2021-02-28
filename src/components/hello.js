@@ -4,8 +4,6 @@ import img from "../img/Brandon_cropped.jpg";
 import "../styles/hello.css"
 
 
-
-
 const styles = {
     hero: {
         background: "black",
@@ -13,10 +11,6 @@ const styles = {
     },
     el: {
         marginTop: "20vh"
-    },
-    font: {
-        fontSize: "100px",
-        color: "white"
     },
     link: {
         color: "red",
@@ -34,7 +28,7 @@ const Hello = () => {
         <div className='container hero d-flex flex-row justify-content-center col-sm-12 col-md-12 col-lg-12 col-xl-12' style={styles.hero}>
 
             <div className='flex-column' style={styles.el}>
-              <Link style={styles.decorate} className='hello'   to='/about' ><h1 style={styles.font}>Hello.</h1></Link>  
+              <Link style={styles.decorate}  to='/about' ><h1 className='font'>Hello.</h1></Link>  
                 < Link style={styles.decorate} to='/projects' ><h1 className='mt-5 i-am' style={styles.link} >I Am</h1></Link>
                 <Link style={styles.decorate} to='/contact' ><h1 className='mt-5 brandon' style={styles.link}>Brandon</h1></Link>
             </div>
