@@ -6,15 +6,10 @@ import dmm from "../img/dmm.png"
 import anime from "../img/animevsmma.png"
 import weather from "../img/weatherdashboard.png"
 import maze from "../img/maze.png"
-import dayplanner from "../img/dayplanner.png"
 import passowrd from "../img/generatepassword.png"
 import budgetTracker from "../img/budgetTracker.png"
-import note from "../img/noteTaker.png"
 import fit from "../img/fitnessTracker.png"
 import vue from "../img/Vue.png"
-import burger from "../img/burger.png"
-import quiz from "../img/quiz.png"
-
 
 const Portfolio = () => {
     return (
@@ -79,16 +74,51 @@ const Portfolio = () => {
 
                 <h2 className='ptitle' >Honorable Mentions: </h2>
 
+
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={fit} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title">Fitness Taker</h5>
-                                    <p className="card-text">Get in the best shape of your life with Firness tracker. Make new workouts, and keep track of old ones.</p>
+                                    <h5 className="card-title">Team Builder</h5>
+                                    <p className="card-text">Team Builder allows Users to quickly build templates for any project and assign roles to members.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Employee Tracker</h5>
+                                    <p className="card-text">Employee-Tracker is simple and easy to use application designed to allow managers and other qualified personal view and edit employee data.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">ReadMe Generator</h5>
+                                    <p className="card-text">Short on time and but still need a quality readme? Readme Generator uses inquirer to take user input to build the perfect readme. </p>
                                 </div>
                             </div>
                         </div>
@@ -106,6 +136,25 @@ const Portfolio = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Budget Tracker</h5>
                                     <p className="card-text">Manage your Finances with Budget Tracker. This app is equipeed to run offline with the help of service workers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={fit} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Fitness Taker</h5>
+                                    <p className="card-text">Get in the best shape of your life with Firness tracker. Make new workouts, and keep track of old ones.</p>
                                 </div>
                             </div>
                         </div>
@@ -178,55 +227,7 @@ const Portfolio = () => {
                 </div>
 
 
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Team Builder</h5>
-                                    <p className="card-text">Team Builder allows Users to quickly build templates for any project and assign roles to members.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Employee Tracker</h5>
-                                    <p className="card-text">Employee-Tracker is simple and easy to use application designed to allow managers and other qualified personal view and edit employee data.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">ReadMe Generator</h5>
-                                    <p className="card-text">Short on time and but still need a quality readme? Readme Generator uses inquirer to take user input to build the perfect readme. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 
