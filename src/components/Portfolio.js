@@ -79,24 +79,6 @@ const Portfolio = () => {
 
                 <h2 className='ptitle' >Individual</h2>
 
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={note} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Note Taker</h5>
-                                    <p className="card-text">Keep Track of Notes and Tasks using Note Taker.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
@@ -147,23 +129,6 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={burger} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Eat-Da-Burger</h5>
-                                    <p className="card-text">Eat da burger allows users to enter any burger they want and "Devour" it.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
@@ -195,23 +160,6 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={dayplanner} alt="day planner homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Day Planner</h5>
-                                    <p className="card-text">Plan out your days with Day Planner. Easily keep track of important events by adding them to your planner for later.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
 
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
@@ -274,23 +222,6 @@ const Portfolio = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">ReadMe Generator</h5>
                                     <p className="card-text">Short on time and but still need a quality readme? Readme Generator uses inquirer to take user input to build the perfect readme. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={quiz} alt="password generator homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Code Quiz</h5>
-                                    <p className="card-text">Test your javascript knowledge with CodeQuiz.</p>
                                 </div>
                             </div>
                         </div>
