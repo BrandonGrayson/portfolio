@@ -23,7 +23,7 @@ const Portfolio = () => {
             <div className='container'>
                 <h1 className='ptitle'>Projects</h1>
 
-                <h2 className='ptitle'>Group Projects: </h2>
+                <h2 className='ptitle'>Favorite Projects: </h2>
 
 
                 <Navbar />
@@ -77,7 +77,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <h2 className='ptitle' >Individual</h2>
+                <h2 className='ptitle' >Honorable Mentions: </h2>
 
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
