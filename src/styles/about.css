@@ -4,6 +4,14 @@
     min-height: 100vh;
 }
 
+.txt {
+    margin-top: 15%;
+}
+
+.aboutDiv {
+    margin-top: 5%;
+}
+
 .about {
     color: white;
 }

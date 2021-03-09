@@ -12,7 +12,7 @@ const About = () => {
 
             <h1 className='txt'>I design and build digital products</h1>
 
-                <div>
+                <div className='aboutDiv'>
                     <h3 className='aboutTxt' >About</h3>
 
                     <p className='aboutTxt'>Hi, Im Brandon. I'm a multi skilled front end Developer with Backend Experience as well. JavaScript is my Primary language and so far React.js has been my favorite framework to work with. I'm fascinated by the possibilities, and love working on new projects to see if there is a way to breathe life into the things I envision. </p>
