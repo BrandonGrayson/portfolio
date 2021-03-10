@@ -6,34 +6,30 @@ import dmm from "../img/dmm.png"
 import anime from "../img/animevsmma.png"
 import weather from "../img/weatherdashboard.png"
 import maze from "../img/maze.png"
-import dayplanner from "../img/dayplanner.png"
 import passowrd from "../img/generatepassword.png"
 import budgetTracker from "../img/budgetTracker.png"
-import note from "../img/noteTaker.png"
 import fit from "../img/fitnessTracker.png"
 import vue from "../img/Vue.png"
-import burger from "../img/burger.png"
-import quiz from "../img/quiz.png"
-
+import "bootstrap/dist/css/bootstrap.css";
 
 const Portfolio = () => {
     return (
         <div className='container hero col-xs-12 col-sm-12 col-md-12 col-lg-12'>
 
             <div className='container'>
+
+            <Navbar />
+
                 <h1 className='ptitle'>Projects</h1>
 
-                <h2 className='ptitle'>Group Projects: </h2>
-
-
-                <Navbar />
-
+                <h2 className='ptitle'>Favorite Projects: </h2>
 
                 <div className='projects'>
+                    
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={lookbook} className='card-img-top' alt="lookbook homepage" style={{"maxWidth": "300px"}} />
+                                <img src={lookbook} className='card-img-top' alt="lookbook homepage" />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -43,13 +39,16 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
 
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={dmm} alt="DMM homepage" style={{"maxWidth": "200px"}} />
+                                <img src={dmm} alt="DMM homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -65,7 +64,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={anime} alt="anime vs ufc homepage" style={{"maxWidth": "200px"}} />
+                                <img src={anime} alt="anime vs ufc homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -77,164 +76,14 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <h2 className='ptitle' >Individual</h2>
+                <h2 className='ptitle' >Honorable Mentions: </h2>
 
 
-                <div className='projects'>
+                {/* <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={note} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Note Taker</h5>
-                                    <p className="card-text">Keep Track of Notes and Tasks using Note Taker.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={fit} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Fitness Taker</h5>
-                                    <p className="card-text">Get in the best shape of your life with Firness tracker. Make new workouts, and keep track of old ones.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={budgetTracker} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Budget Tracker</h5>
-                                    <p className="card-text">Manage your Finances with Budget Tracker. This app is equipeed to run offline with the help of service workers.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={vue} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Vue</h5>
-                                    <p className="card-text">Vue is an Employee Directory. That utilizes the random users api and react.js to generate an employee directory.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={burger} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Eat-Da-Burger</h5>
-                                    <p className="card-text">Eat da burger allows users to enter any burger they want and "Devour" it.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={weather} alt="weather dashboard homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Weather Dashboard</h5>
-                                    <p className="card-text">Weather Dashboard uses the Yahoo weather api to allow users access to the forecast of any city up to 5 days in advance.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={maze} alt="maze homescreen" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Maze</h5>
-                                    <p className="card-text">Welcome to Maze Runner. True to its name this app is a maze, Can you reach the goal?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={dayplanner} alt="day planner homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Day Planner</h5>
-                                    <p className="card-text">Plan out your days with Day Planner. Easily keep track of important events by adding them to your planner for later.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={passowrd} alt="password generator homepage" style={{"maxWidth": "200px"}} />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Generate Password</h5>
-                                    <p className="card-text">Generate a random password based on the criteria you chose. Next take a screenshot to save your passowrd for prosterity.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className='projects'>
-                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src='...' alt="password generator homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -251,7 +100,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src='...' alt="password generator homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -268,12 +117,48 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src='...' alt="password generator homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title">ReadMe Generator</h5>
                                     <p className="card-text">Short on time and but still need a quality readme? Readme Generator uses inquirer to take user input to build the perfect readme. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={budgetTracker} alt="budget Tracker homepage" className='card-img-top' />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Budget Tracker</h5>
+                                    <p className="card-text">Manage your Finances with Budget Tracker. This app is equipeed to run offline with the help of service workers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={fit} alt="budget Tracker homepage" className='card-img-top' />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Fitness Taker</h5>
+                                    <p className="card-text">Get in the best shape of your life with Firness tracker. Make new workouts, and keep track of old ones.</p>
                                 </div>
                             </div>
                         </div>
@@ -285,17 +170,68 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={quiz} alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src={vue} alt="budget Tracker homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title">Code Quiz</h5>
-                                    <p className="card-text">Test your javascript knowledge with CodeQuiz.</p>
+                                    <h5 className="card-title">Vue</h5>
+                                    <p className="card-text">Vue is an Employee Directory. That utilizes the random users api and react.js to generate an employee directory.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={weather} alt="weather dashboard homepage" className='card-img-top' />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Weather Dashboard</h5>
+                                    <p className="card-text">Weather Dashboard uses the Yahoo weather api to allow users access to the forecast of any city up to 5 days in advance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={maze} alt="maze homescreen" className='card-img-top' />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Maze</h5>
+                                    <p className="card-text">Welcome to Maze Runner. True to its name this app is a maze, Can you reach the goal?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='projects'>
+                    <div className="card mb-3" style={{ "maxWidth": "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={passowrd} alt="password generator homepage" className='card-img-top' />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Generate Password</h5>
+                                    <p className="card-text">Generate a random password based on the criteria you chose. Next take a screenshot to save your passowrd for prosterity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
 
             </div>
 
