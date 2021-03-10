@@ -16,13 +16,12 @@ const Portfolio = () => {
         <div className='container hero col-xs-12 col-sm-12 col-md-12 col-lg-12'>
 
             <div className='container'>
+
+            <Navbar />
+
                 <h1 className='ptitle'>Projects</h1>
 
                 <h2 className='ptitle'>Favorite Projects: </h2>
-
-
-                <Navbar />
-
 
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
