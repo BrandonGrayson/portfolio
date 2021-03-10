@@ -10,6 +10,7 @@ import passowrd from "../img/generatepassword.png"
 import budgetTracker from "../img/budgetTracker.png"
 import fit from "../img/fitnessTracker.png"
 import vue from "../img/Vue.png"
+import "bootstrap/dist/css/bootstrap.css";
 
 const Portfolio = () => {
     return (
@@ -24,10 +25,11 @@ const Portfolio = () => {
                 <h2 className='ptitle'>Favorite Projects: </h2>
 
                 <div className='projects'>
+                    
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={lookbook} className='card-img-top' alt="lookbook homepage" style={{"maxWidth": "300px"}} />
+                                <img src={lookbook} className='card-img-top' alt="lookbook homepage" />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -37,13 +39,16 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
 
                 <div className='projects'>
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={dmm} alt="DMM homepage" style={{"maxWidth": "200px"}} />
+                                <img src={dmm} alt="DMM homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -59,7 +64,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={anime} alt="anime vs ufc homepage" style={{"maxWidth": "200px"}} />
+                                <img src={anime} alt="anime vs ufc homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -78,7 +83,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src='...' alt="password generator homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -95,7 +100,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src='...' alt="password generator homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -112,7 +117,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src='...' alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src='...' alt="password generator homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -129,7 +134,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={budgetTracker} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                                <img src={budgetTracker} alt="budget Tracker homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -148,7 +153,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={fit} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                                <img src={fit} alt="budget Tracker homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -165,7 +170,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={vue} alt="budget Tracker homepage" style={{"maxWidth": "200px"}} />
+                                <img src={vue} alt="budget Tracker homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -181,7 +186,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={weather} alt="weather dashboard homepage" style={{"maxWidth": "200px"}} />
+                                <img src={weather} alt="weather dashboard homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -197,7 +202,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={maze} alt="maze homescreen" style={{"maxWidth": "200px"}} />
+                                <img src={maze} alt="maze homescreen" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -213,7 +218,7 @@ const Portfolio = () => {
                     <div className="card mb-3" style={{ "maxWidth": "540px" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={passowrd} alt="password generator homepage" style={{"maxWidth": "200px"}} />
+                                <img src={passowrd} alt="password generator homepage" className='card-img-top' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
